@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  height: 100vh;
+}
+header {
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  color: #314547;
+  font-size: 90px;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+}
+p {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.2);
+  background: url(https://img1.goodfon.ru/wallpaper/nbig/6/31/polosy-poloski-raznocvetnye.jpg)
+    repeat-x;
+  -webkit-background-clip: text;
+  background-size: contain;
+  animation: line 13s linear;
+}
+@keyframes line {
+  0% {
+    background-position: left 0 top 0;
+  }
+  50% {
+    background-position: left 150px top -20px;
+  }
+  100% {
+    background-position: left 300px top 0;
+  }
+}
+h1 span {
+  transition: all 0.3s;
+}
+
+h1 span:hover {
+  text-shadow: 1px 1px 2px rgb(6, 38, 223), 0 0 1em blue, 0 0 0.2em blue;
+}
